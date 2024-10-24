@@ -20,17 +20,24 @@
   Steps:
 
   1. KPI Card - Unique App Count:
-    - Created a KPI card that counts the unique number of apps in the Shopify App Store.
-    - Visualization: KPI Card showing the total number of unique apps.
 
-  2. Line Chart - Reviews Over Time:
-    - Created a line chart showing the sum of review counts over time, with the lastmod date on the X-axis (set to continuous format) and review count on the Y-axis.
-    - Visualization: Line chart showing trends in the number of reviews over time.
+     - Created a KPI card that counts the unique number of apps in the Shopify App Store.
 
-  3. Scatterplot - Reviews vs. Average Rating:
-    - Created a scatterplot comparing the number of reviews (X-axis) with the average rating (Y-axis).
-    - Added a Text Box for interpretation of insights derived from the scatterplot.
-    - Visualization: Scatterplot with reviews and ratings, along with an explanatory text box.
+     - Visualization: KPI Card showing the total number of unique apps.
+
+  3. Line Chart - Reviews Over Time:
+
+     - Created a line chart showing the sum of review counts over time, with the lastmod date on the X-axis (set to continuous format) and review count on the Y-axis.
+
+     - Visualization: Line chart showing trends in the number of reviews over time.
+
+  5. Scatterplot - Reviews vs. Average Rating:
+
+     - Created a scatterplot comparing the number of reviews (X-axis) with the average rating (Y-axis).
+   
+     - Added a Text Box for interpretation of insights derived from the scatterplot.
+    
+     - Visualization: Scatterplot with reviews and ratings, along with an explanatory text box.
 
 ## Part 2: Reviews Analysis
   - This section dives deeper into the app reviews, exploring the impact of helpfulness and developer responsiveness on app success.
