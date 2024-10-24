@@ -48,6 +48,7 @@
   Steps:
 
   1. Helpful Reviews Calculation:
+![Proj6 2 1](https://github.com/user-attachments/assets/ffdd1ed8-7244-4c5b-88eb-8edbb67157c4)
 
      - Created a new column in the Reviews table called helpful_reviews using a DAX formula: rating * (1 + helpful_count).
 
@@ -55,7 +56,8 @@
 
      - Visualization: Card showing the average helpful review score.
 
-  3. Developer Answered Reviews:
+  2. Developer Answered Reviews:
+![Proj6 2 2](https://github.com/user-attachments/assets/4b4daef8-617f-47a3-be0f-0766d1d106b2)
 
      - Created a new DAX column called developer_answered, which returns 1 if a developer responded to a review and 0 if they did not.
 
@@ -69,18 +71,21 @@
 Steps:
 
   1. Create Relationship Between Reviews and Apps:
+![Proj6 3 1](https://github.com/user-attachments/assets/b79fe6b9-9eae-4351-b617-4d5d0d0d5bc8)
 
      - Established a many-to-one relationship between the Reviews table and the Apps table using the app_id from the Reviews table and the id from the Apps table.
 
      - Visualization: A bar chart with developers (X-axis) and the sum of ratings (Y-axis) based on this new relationship.
 
   2. Bar Chart - Correcting Misleading Insights:
+![Proj6 3 2](https://github.com/user-attachments/assets/2056c431-eae8-4119-aaca-18671461beb7)
 
      - The first bar chart may give misleading insights since a high sum of ratings doesn’t necessarily mean high quality. Created a second bar chart using the helpful_reviews average to correct for this.
 
      - Visualization: A bar chart showing developers and the average helpful review score, providing a clearer picture of app quality.
 
   3. Developer Responsiveness:
+![Proj6 3 3](https://github.com/user-attachments/assets/4b756b5a-043c-42a7-ad98-3b8174d06c16)
 
      - Created a bar chart showing the developers (X-axis) and the developer_answered rate (Y-axis) to identify the most responsive developers.
 
