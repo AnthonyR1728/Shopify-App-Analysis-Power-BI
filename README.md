@@ -20,6 +20,7 @@
   Steps:
 
   1. KPI Card - Unique App Count:
+![Proj6  1 1](https://github.com/user-attachments/assets/50fef342-07c3-417d-88af-e1dbaf5de867)
 
      - Created a KPI card that counts the unique number of apps in the Shopify App Store.
 
@@ -65,47 +66,42 @@
 
 Steps:
 
-Create Relationship Between Reviews and Apps:
+  1. Create Relationship Between Reviews and Apps:
 
-Established a many-to-one relationship between the Reviews table and the Apps table using the app_id from the Reviews table and the id from the Apps table.
-Visualization: A bar chart with developers (X-axis) and the sum of ratings (Y-axis) based on this new relationship.
-Bar Chart - Correcting Misleading Insights:
+     - Established a many-to-one relationship between the Reviews table and the Apps table using the app_id from the Reviews table and the id from the Apps table.
 
-The first bar chart may give misleading insights since a high sum of ratings doesn’t necessarily mean high quality. Created a second bar chart using the helpful_reviews average to correct for this.
-Visualization: A bar chart showing developers and the average helpful review score, providing a clearer picture of app quality.
-Developer Responsiveness:
+     - Visualization: A bar chart with developers (X-axis) and the sum of ratings (Y-axis) based on this new relationship.
 
-Created a bar chart showing the developers (X-axis) and the developer_answered rate (Y-axis) to identify the most responsive developers.
-Added a filter to display only developers with more than 500 reviews for better accuracy.
-Visualization: Bar chart showing developer responsiveness filtered by apps with 500+ reviews.
-Power BI Report Pages
-Each section of the project is represented as a separate page within the Power BI report, with corresponding visualizations for each question.
+  2. Bar Chart - Correcting Misleading Insights:
 
-App Landscape: Includes the KPI card, line chart, and scatterplot.
-Reviews: Contains the average helpful reviews card and developer response scatterplot.
-App Reviews: Features the bar charts displaying developer ratings and responsiveness, as well as the corrected chart using helpful reviews.
-How to Use the Repository
-1. Clone the Repository
-To get started with the project, clone this repository to your local machine:
+     - The first bar chart may give misleading insights since a high sum of ratings doesn’t necessarily mean high quality. Created a second bar chart using the helpful_reviews average to correct for this.
 
-bash
-Copy code
-git clone https://github.com/yourusername/shopify-app-analysis.git
-2. Open the Power BI File
-The project is built in Power BI Desktop. To view and interact with the project, open the .pbix file using Power BI Desktop.
+     - Visualization: A bar chart showing developers and the average helpful review score, providing a clearer picture of app quality.
 
-Download Power BI Desktop
-3. Explore the Report
-Each section of the analysis is presented on a separate page in the Power BI report. Navigate between the pages to explore different visualizations:
+  3. Developer Responsiveness:
 
-App Landscape: Overview of Shopify apps and their reviews.
-Reviews: Analysis of review helpfulness and developer responses.
-App Reviews: A deeper dive into app ratings and developer responsiveness.
-4. Screenshots
-For each question and subquestion, corresponding screenshots of the Power BI report are included in the screenshots folder.
+     - Created a bar chart showing the developers (X-axis) and the developer_answered rate (Y-axis) to identify the most responsive developers.
 
-Project Files
-shopify-app-analysis.pbix: The Power BI report containing all visualizations and analysis.
-shopify.xlsx: The dataset used for the analysis.
-screenshots/: Screenshots of each question and subquestion, as required for the project.
+     - Added a filter to display only developers with more than 500 reviews for better accuracy.
+
+     - Visualization: Bar chart showing developer responsiveness filtered by apps with 500+ reviews.
+
+## Power BI Report Pages
+  - Each section of the project is represented as a separate page within the Power BI report, with corresponding visualizations for each question.
+
+    - App Landscape: Includes the KPI card, line chart, and scatterplot.
+
+    - Reviews: Contains the average helpful reviews card and developer response scatterplot.
+
+    - App Reviews: Features the bar charts displaying developer ratings and responsiveness, as well as the corrected chart using helpful reviews.
+
+
+
+## Project Files
+
+  - shopify-app-analysis.pbix: The Power BI report containing all visualizations and analysis.
+  
+  - shopify.xlsx: The dataset used for the analysis.
+  
+  - screenshots/: Screenshots of each question and subquestion, as required for the project.
 
