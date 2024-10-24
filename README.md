@@ -26,13 +26,15 @@
 
      - Visualization: KPI Card showing the total number of unique apps.
 
-  3. Line Chart - Reviews Over Time:
+  2. Line Chart - Reviews Over Time:
+![Proj6 1 2](https://github.com/user-attachments/assets/97b4f7d3-6070-4925-9caf-c65e5c38a726)
 
      - Created a line chart showing the sum of review counts over time, with the lastmod date on the X-axis (set to continuous format) and review count on the Y-axis.
 
      - Visualization: Line chart showing trends in the number of reviews over time.
 
-  5. Scatterplot - Reviews vs. Average Rating:
+  3. Scatterplot - Reviews vs. Average Rating:
+![Proj6 1 3](https://github.com/user-attachments/assets/e7294f74-d043-46f5-8297-ada31f8937ab)
 
      - Created a scatterplot comparing the number of reviews (X-axis) with the average rating (Y-axis).
    
